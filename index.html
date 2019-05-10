@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedro Henrique - Desenvolvedor Web</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="Mobile/style.css"> 
+    <link rel="stylesheet" href="Assets/Fonts/config/fontsConfig.css"> 
+    <script src="JS/script.js"></script> 
+</head>
+<body>
+    <nav class="menuBar__box"> 
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Inicio</a>  
+            <a href="#contact">Contato</a>
+            <a href="#about">Sobre</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>             
+    </nav>
+
+    <header id="home">
+        <section class="sectionHeader_about">
+            <div class="aboutBox_items">
+                <img class="perfilMy_item" src="Assets/Images/perfil.jpeg" alt="Perfil">
+                <h1 class="nameMy_item">Pedro Henrique</h1>
+                <p class="paragraphAboutMy_item">Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Rem voluptas labore quas culpa sed suscipit 
+                harum nisi consectetur fugiat amet cupiditate ullam 
+                architecto minus nihil aliquid aut ut, et repellat.
+                Rem voluptas labore quas culpa sed suscipit 
+                harum nisi consectetur fugiat amet cupiditate ullam 
+                architecto minus nihil aliquid aut ut, et repellat.</p>
+            </div>
+        </section>
+    </header>
+
+    <footer class="socialRedes">
+        <div class="redes">
+            <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+</html>
